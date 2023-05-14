@@ -3,14 +3,11 @@ package com.example.minrecbotjava.service.impl;
 import com.example.minrecbotjava.service.ValidatorService;
 import org.apache.commons.validator.routines.EmailValidator;
 import org.springframework.stereotype.Service;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @Service
 public class ValidatorServiceImpl implements ValidatorService {
-
-
 
     @Override
     public boolean isValidEmail(String email) {
