@@ -33,7 +33,7 @@ public class UserInfo {
     String lastName;
 
     @Column(name = "is_admin")
-    boolean isAdmin;
+    boolean isAdmin = false;
 
 
     @Override
