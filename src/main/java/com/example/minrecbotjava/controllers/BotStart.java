@@ -182,7 +182,8 @@ public class BotStart extends TelegramLongPollingBot {
                 musicInfo.setActive(false);
                 musicService.save(musicInfo);
                 keyboardService.getMenu(update, "✔️  Заявка на оказание услуги отправлена\n" +
-                                "👍  с вами свяжутся в ближайшее время",
+                                "👍  с вами свяжутся в ближайшее время\n" +
+                                "\uD83D\uDCD1 Ваша заявка: \n"+musicInfo.toString(),
                         userInfoRepository.findByChatId(update.getMessage().getChatId()));
                 emailService.sendSimpleEmail("romanze1706@gmail.com",
                         "MinimalRecords", musicInfo.toString());

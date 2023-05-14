@@ -14,4 +14,10 @@ public interface MusicService {
     void deleteMusicService(MusicInfo musicInfo);
 
     List<MusicInfo> findAll();
+
+    void deleteMusicServiceById(long id);
+
+    void deleteAll();
+
+    MusicInfo findById(long id);
 }

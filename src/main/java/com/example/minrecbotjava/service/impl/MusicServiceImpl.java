@@ -36,4 +36,19 @@ public class MusicServiceImpl implements MusicService {
         return musicInfoRepository.findAll();
     }
 
+    @Override
+    public void deleteMusicServiceById(long id) {
+        musicInfoRepository.deleteById(id);
+    }
+
+    @Override
+    public void deleteAll() {
+        musicInfoRepository.deleteAll();
+    }
+
+    @Override
+    public MusicInfo findById(long id) {
+        return musicInfoRepository.findById(id).orElse(null);
+    }
+
 }
