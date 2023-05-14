@@ -38,12 +38,12 @@ public class UserInfo {
 
     @Override
     public String toString() {
-        return "\uD83C\uDD94 " + id +
+        return "\uD83C\uDD94 " + id + '\n' +
                 "<b>chat</b>\uD83C\uDD94 " + chatId +
                 "\uD83C\uDF10 Ник:" + nickName + '\n' +
                 "\uD83E\uDD35 Имя:" + firstName + '\n' +
-                "\uD83E\uDDCD\uD83C\uDFFD Фамилия: " + lastName + '\'' +
-                ("\uD83C\uDFAD Роль: " + (isAdmin? "Админ":"Пользователь"));
+                "\uD83E\uDDCD\uD83C\uDFFD Фамилия: " + lastName + '\n' +
+                ("\uD83C\uDFAD Роль: " + (isAdmin ? "Админ" : "Пользователь")) + '\n';
 
     }
 }
