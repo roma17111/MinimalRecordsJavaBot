@@ -33,6 +33,16 @@ public class ValidatorServiceImpl implements ValidatorService {
     }
 
     @Override
+    public boolean isValidFio(String name) {
+        for (int i = 0; i < name.length(); i++) {
+            if (Character.isDigit(name.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
     public boolean isValidAge(String age) {
         if (age.length() > 3) {
             return false;

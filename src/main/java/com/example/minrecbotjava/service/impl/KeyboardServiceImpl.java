@@ -24,7 +24,8 @@ import java.util.List;
 @Slf4j
 public class KeyboardServiceImpl implements KeyboardService {
 
-    public static final String USERS = "\"\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB Список пользователей\"";
+    public static final String CANCEL_MUSIC_SERVICE = "❌ Отменить заказ";
+    public static final String USERS = "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB Список пользователей";
     public static final String SERVICES_MUSIC = "🧰 Список заявок";
     public static final String OPPORTUNITIES = "📣 Наши возможности";
     public static final String CREATE_MUSIC_SERVICE = "📱 Заказать услугу";
@@ -43,6 +44,7 @@ public class KeyboardServiceImpl implements KeyboardService {
         message.setChatId(update.getMessage().getChatId());
         message.setText(text);
         ReplyKeyboardMarkup markup = new ReplyKeyboardMarkup();
+        markup.setResizeKeyboard(true);
         List<KeyboardRow> rows = new ArrayList<>();
         if (user.isAdmin()) {
             KeyboardRow row1 = new KeyboardRow();
@@ -61,8 +63,32 @@ public class KeyboardServiceImpl implements KeyboardService {
         row3.add(web);
         row3.add(CONTACTS);
         rows.add(row3);
-        KeyboardRow row4 = new KeyboardRow();
         markup.setKeyboard(rows);
+        message.setReplyMarkup(markup);
+        try {
+            bot.execute(message);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+            log.error(e.getMessage());
+        }
+
+    }
+
+    @Override
+    public void getCancelKeyboard(Update update,
+                                  String text) {
+        SendMessage message = new SendMessage();
+        message.enableHtml(true);
+        message.setChatId(update.getMessage().getChatId());
+        message.setText(text);
+        ReplyKeyboardMarkup markup = new ReplyKeyboardMarkup();
+        markup.setResizeKeyboard(true);
+        List<KeyboardRow> rows = new ArrayList<>();
+        KeyboardRow row = new KeyboardRow();
+        row.add(CANCEL_MUSIC_SERVICE);
+        rows.add(row);
+        markup.setKeyboard(rows);
+        message.setReplyMarkup(markup);
         try {
             bot.execute(message);
         } catch (TelegramApiException e) {

@@ -10,4 +10,7 @@ public interface KeyboardService {
     void getMenu(Update update,
                  String text,
                  UserInfo user);
+
+    void getCancelKeyboard(Update update,
+                           String text);
 }

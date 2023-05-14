@@ -22,6 +22,9 @@ public class MusicInfo {
 
     @Column(name = "chat_id")
     long chatId;
+
+    @Column(name = "state_id")
+    int stateId;
     String fio;
     String phone;
     String email;

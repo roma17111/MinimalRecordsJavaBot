@@ -7,6 +7,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -15,9 +17,23 @@ public class MusicServiceImpl implements MusicService {
     private final MusicInfoRepository musicInfoRepository;
 
     @Override
+    public void save(MusicInfo musicInfo) {
+        musicInfoRepository.save(musicInfo);
+    }
+
+    @Override
     public MusicInfo getActiveServiceByChatId(long chatId) {
         return musicInfoRepository.findByChatIdIsActive(chatId);
     }
 
+    @Override
+    public void deleteMusicService(MusicInfo musicInfo) {
+        musicInfoRepository.delete(musicInfo);
+    }
+
+    @Override
+    public List<MusicInfo> findAll() {
+        return musicInfoRepository.findAll();
+    }
 
 }

@@ -7,6 +7,9 @@ public interface ValidatorService {
 
     boolean isValidName(String name);
 
+
+    boolean isValidFio(String name);
+
     boolean isValidAge(String age);
 
     boolean isValidDate(String date);
