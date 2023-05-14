@@ -2,7 +2,7 @@ package com.example.minrecbotjava.service.util;
 
 public class TextUtil {
 
-    public static final String START_PHOTO_PATH = "./images/Minrec.jpg";
+    public static final String START_PHOTO_PATH = "images/Minrec.jpg";
     public static final String START = "😐👉🚪   <em> Добро пожаловать в домашнюю студию звукозаписи</em>\n" +
             "🖐 🙌 👋🏼 🔊 🔥\n" +
             "🎤📀💻 <b>MinimalRecords</b>\n\n";

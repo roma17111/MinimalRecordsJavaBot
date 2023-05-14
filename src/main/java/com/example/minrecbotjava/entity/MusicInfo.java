@@ -20,10 +20,14 @@ public class MusicInfo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
 
+    @Column(name = "chat_id")
+    long chatId;
     String fio;
     String phone;
     String email;
     String description;
+    @Column(name = "is_active")
+    boolean isActive;
 
     @Override
     public String toString() {
