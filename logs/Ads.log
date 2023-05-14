@@ -1,0 +1,907 @@
+2023-05-14 15:09:42,256 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@dcfda20 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@6d304f9d - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@dcfda20 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@6d304f9d - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-14 15:12:53,128 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@3b220bcb - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@2b95e48b - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@3b220bcb - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@2b95e48b - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-14 15:13:04,233 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@55b5f5d2 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@5bfa8cc5 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@55b5f5d2 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@5bfa8cc5 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-14 15:14:06,983 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1d8062d2 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1e63ec0b - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1d8062d2 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1e63ec0b - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-14 15:14:51,131 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 9588 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:14:51,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:14:52,898 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:14:52,915 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:14:53,614 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:14:53,626 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:14:53,626 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:14:53,626 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:14:53,778 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:14:53,778 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1997 ms
+2023-05-14 15:14:54,170 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:14:54,252 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:14:54,464 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:14:54,579 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:14:55,917 ERROR com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "user"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+2023-05-14 15:14:55,918 WARN org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "user"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+2023-05-14 15:14:55,935 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:14:56,145 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:14:57,380 ERROR com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "user"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:183)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:104)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+2023-05-14 15:14:57,381 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 0, SQLState: 28P01
+2023-05-14 15:14:57,381 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] FATAL: password authentication failed for user "user"
+2023-05-14 15:14:57,386 ERROR org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+2023-05-14 15:14:57,387 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+2023-05-14 15:14:57,389 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:14:57,407 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:14:57,428 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:71)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:183)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:104)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "user"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	... 35 common frames omitted
+2023-05-14 15:15:33,001 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 9656 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:15:33,005 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:15:34,020 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:15:34,033 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:15:34,563 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:15:34,573 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:15:34,573 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:15:34,573 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:15:34,706 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:15:34,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1658 ms
+2023-05-14 15:15:34,992 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:15:35,048 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:15:35,212 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:15:35,311 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:15:35,795 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:15:35,812 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:15:36,178 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:15:36,186 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:15:36,333 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:15:37,595 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5a460080-afd2-4ef7-b16e-8d6f44de8f20
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:15:37,724 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:15:37,736 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ee200ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25ee3caa, org.springframework.security.web.context.SecurityContextPersistenceFilter@45017263, org.springframework.security.web.header.HeaderWriterFilter@478fe415, org.springframework.web.filter.CorsFilter@3fecb076, org.springframework.security.web.csrf.CsrfFilter@32fd5bc, org.springframework.security.web.authentication.logout.LogoutFilter@31940d6b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59b3f162, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@747e8659, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62159fd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3bf40c74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32a074ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@673605ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28e8dee7, org.springframework.security.web.session.SessionManagementFilter@31028e45, org.springframework.security.web.access.ExceptionTranslationFilter@54ef9698, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1504b493]
+2023-05-14 15:15:38,889 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:15:38,912 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 15:15:38,948 INFO org.springframework.boot.StartupInfoLogger [main] Started MinRecBotJavaApplication in 6.329 seconds (JVM running for 7.152)
+2023-05-14 15:15:39,120 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-192.168.0.10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 15:15:39,121 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-192.168.0.10] Initializing Servlet 'dispatcherServlet'
+2023-05-14 15:15:39,122 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-192.168.0.10] Completed initialization in 1 ms
+2023-05-14 15:27:36,042 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:27:36,048 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:27:36,051 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-14 15:27:44,670 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 11108 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:27:44,674 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:27:46,260 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:27:46,273 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:27:46,881 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:27:46,893 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:27:46,894 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:27:46,894 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:27:47,036 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:27:47,036 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2309 ms
+2023-05-14 15:27:47,354 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:27:47,421 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:27:47,623 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:27:47,733 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:27:48,461 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:27:48,487 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:27:49,363 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:27:49,371 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:27:49,523 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:27:50,624 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 10c922ac-a390-4787-b5c1-d5c10a3d9294
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:27:50,723 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:27:50,736 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@720c0996, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7910e307, org.springframework.security.web.context.SecurityContextPersistenceFilter@14fe085b, org.springframework.security.web.header.HeaderWriterFilter@59043741, org.springframework.web.filter.CorsFilter@460aa24e, org.springframework.security.web.csrf.CsrfFilter@5dac6bc3, org.springframework.security.web.authentication.logout.LogoutFilter@1be427b4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70a54731, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@da11873, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5aa334c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58ca6ba3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@525b9df4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52dd1be2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17f8cad6, org.springframework.security.web.session.SessionManagementFilter@64cdc310, org.springframework.security.web.access.ExceptionTranslationFilter@14e83c9d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38363e96]
+2023-05-14 15:27:51,880 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:27:51,905 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 15:27:51,923 INFO org.springframework.boot.StartupInfoLogger [main] Started MinRecBotJavaApplication in 7.786 seconds (JVM running for 9.599)
+2023-05-14 15:35:16,556 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:35:16,560 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:35:16,563 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-14 15:35:24,974 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 3888 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:35:24,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:35:26,260 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:35:26,278 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:35:27,011 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:35:27,021 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:35:27,021 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:35:27,021 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:35:27,171 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:35:27,171 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2149 ms
+2023-05-14 15:35:27,476 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:35:27,523 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:35:27,696 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:35:27,796 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:35:28,361 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:35:28,379 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:35:28,797 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:35:28,809 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:35:29,302 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:35:30,778 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 9009b8c5-360f-4ffd-9598-f9697f586678
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:35:30,891 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:35:30,906 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e22d6bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32121140, org.springframework.security.web.context.SecurityContextPersistenceFilter@737445ab, org.springframework.security.web.header.HeaderWriterFilter@229d508c, org.springframework.web.filter.CorsFilter@96c840a, org.springframework.security.web.csrf.CsrfFilter@25a2f432, org.springframework.security.web.authentication.logout.LogoutFilter@1e160a9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c43cb12, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28fef9a2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c81ddab, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3e1c5e0d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f3c7b24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7dbd70fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24ee6faa, org.springframework.security.web.session.SessionManagementFilter@7167d81b, org.springframework.security.web.access.ExceptionTranslationFilter@2b409174, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@acea29e]
+2023-05-14 15:35:31,732 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBotInitializer' defined in class path resource [org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: org.telegram.telegrambots.meta.exceptions.TelegramApiException: Bot token and username can't be empty
+2023-05-14 15:35:31,736 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:35:31,740 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:35:31,971 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:35:31,974 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:35:32,000 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:35:32,030 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBotInitializer' defined in class path resource [org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: org.telegram.telegrambots.meta.exceptions.TelegramApiException: Bot token and username can't be empty
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.RuntimeException: org.telegram.telegrambots.meta.exceptions.TelegramApiException: Bot token and username can't be empty
+	at org.telegram.telegrambots.starter.TelegramBotInitializer.afterPropertiesSet(TelegramBotInitializer.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.telegram.telegrambots.meta.exceptions.TelegramApiException: Bot token and username can't be empty
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:62)
+	at org.telegram.telegrambots.starter.TelegramBotInitializer.afterPropertiesSet(TelegramBotInitializer.java:44)
+	... 18 common frames omitted
+2023-05-14 15:36:37,023 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 4676 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:36:37,026 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:36:38,087 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:36:38,102 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:36:38,631 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:36:38,641 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:36:38,641 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:36:38,642 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:36:38,785 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:36:38,785 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1714 ms
+2023-05-14 15:36:39,079 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:36:39,125 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:36:39,303 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:36:39,405 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:36:39,885 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:36:39,902 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:36:40,285 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:36:40,294 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:36:40,325 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botStart' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\controllers\BotStart.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+2023-05-14 15:36:40,325 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:36:40,327 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:36:40,423 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:36:40,425 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:36:40,443 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:36:40,466 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botStart' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\controllers\BotStart.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:76)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1339)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:262)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 23 common frames omitted
+2023-05-14 15:38:11,343 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 1232 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:38:11,347 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:38:12,470 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:38:12,484 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:38:13,034 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:38:13,043 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:38:13,044 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:38:13,046 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:38:13,178 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:38:13,179 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1783 ms
+2023-05-14 15:38:13,499 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:38:13,558 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:38:13,761 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:38:13,857 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:38:14,397 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:38:14,415 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:38:15,260 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:38:15,270 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:38:15,573 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:38:16,761 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: fce7152d-2aa3-48db-b919-0be5fc20a056
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:38:16,877 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:38:16,890 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17d0d3d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39fc17be, org.springframework.security.web.context.SecurityContextPersistenceFilter@95f1422, org.springframework.security.web.header.HeaderWriterFilter@4b8cde43, org.springframework.web.filter.CorsFilter@106edde4, org.springframework.security.web.csrf.CsrfFilter@1d7af82, org.springframework.security.web.authentication.logout.LogoutFilter@7dfab58d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26728255, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d17d554, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4d9cf71d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2de07c57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47fc9ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b5d1d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c43cb12, org.springframework.security.web.session.SessionManagementFilter@6f7c4e0, org.springframework.security.web.access.ExceptionTranslationFilter@25a2f432, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59bbf82e]
+2023-05-14 15:38:18,078 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBotInitializer' defined in class path resource [org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Error removing old webhook
+2023-05-14 15:38:18,082 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:38:18,086 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:38:18,114 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:38:18,116 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:38:18,135 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:38:18,158 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBotInitializer' defined in class path resource [org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Error removing old webhook
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: java.lang.RuntimeException: Error removing old webhook
+	at org.telegram.telegrambots.starter.TelegramBotInitializer.afterPropertiesSet(TelegramBotInitializer.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:113)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:41)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:65)
+	at org.telegram.telegrambots.starter.TelegramBotInitializer.afterPropertiesSet(TelegramBotInitializer.java:44)
+	... 18 common frames omitted
+Caused by: org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.DeleteWebhook query: [404] Not Found
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponse(PartialBotApiMethod.java:34)
+	at org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodBoolean.deserializeResponse(BotApiMethodBoolean.java:19)
+	at org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodBoolean.deserializeResponse(BotApiMethodBoolean.java:14)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1096)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64)
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:108)
+	... 21 common frames omitted
+2023-05-14 15:42:05,063 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 6180 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:42:05,066 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:42:06,203 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:42:06,219 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:42:06,801 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:42:06,812 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:42:06,812 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:42:06,812 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:42:06,959 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:42:06,959 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1846 ms
+2023-05-14 15:42:07,281 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:42:07,334 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:42:07,504 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:42:07,598 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:42:08,102 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:42:08,120 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:42:08,510 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:42:08,520 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:42:08,529 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botConfig' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\config\BotConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-05-14 15:42:08,530 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:42:08,532 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:42:08,598 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:42:08,601 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:42:08,619 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:42:08,641 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.minrecbotjava.config.BotConfig required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2023-05-14 15:43:21,854 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 4880 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:43:21,856 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:43:22,962 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:43:22,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:43:23,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:43:23,584 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:43:23,584 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:43:23,585 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:43:23,729 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:43:23,729 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1829 ms
+2023-05-14 15:43:24,195 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:43:24,243 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:43:24,418 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:43:24,520 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:43:25,000 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:43:25,016 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:43:25,376 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:43:25,385 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:43:25,392 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botConfig' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\config\BotConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-05-14 15:43:25,393 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:43:25,395 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:43:25,432 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:43:25,435 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:43:25,454 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:43:25,475 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.minrecbotjava.config.BotConfig required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2023-05-14 15:43:46,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 8716 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:43:46,344 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:43:47,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:43:47,416 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:43:47,954 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:43:47,964 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:43:47,964 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:43:47,965 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:43:48,099 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:43:48,099 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1708 ms
+2023-05-14 15:43:48,399 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:43:48,446 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:43:48,614 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:43:48,706 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:43:49,367 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:43:49,383 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:43:49,831 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:43:49,841 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:43:49,871 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botStart' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\controllers\BotStart.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+2023-05-14 15:43:49,871 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:43:49,873 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:43:50,194 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-14 15:43:50,196 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-05-14 15:43:50,213 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-14 15:43:50,233 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botStart' defined in file [F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes\com\example\minrecbotjava\controllers\BotStart.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.minrecbotjava.MinRecBotJavaApplication.main(MinRecBotJavaApplication.java:10)
+Caused by: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:76)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1339)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'com.example.minrecbotjava.config.BotConfig': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:262)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 23 common frames omitted
+2023-05-14 15:44:34,142 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 11148 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:44:34,146 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:44:35,188 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:44:35,204 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:44:35,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:44:35,761 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:44:35,762 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:44:35,764 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:44:35,908 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:44:35,908 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1716 ms
+2023-05-14 15:44:36,210 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:44:36,258 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:44:36,430 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:44:36,523 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:44:37,138 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:44:37,154 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:44:37,586 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:44:37,597 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:44:37,886 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:44:39,033 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 9eeceb63-c2b7-4f7c-8e49-98471151d072
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:44:39,142 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:44:39,155 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55d8f6bb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56b48163, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f1c7fde, org.springframework.security.web.header.HeaderWriterFilter@703a2bc9, org.springframework.web.filter.CorsFilter@eb6ccbc, org.springframework.security.web.csrf.CsrfFilter@523f3c29, org.springframework.security.web.authentication.logout.LogoutFilter@2acbe46d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7bc6b117, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@737445ab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5eae392d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@633c0a61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11939a9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229d508c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cd1716d, org.springframework.security.web.session.SessionManagementFilter@346e5cc, org.springframework.security.web.access.ExceptionTranslationFilter@47fc9ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bd28e4a]
+2023-05-14 15:44:40,403 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:44:40,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 15:44:40,441 INFO org.springframework.boot.StartupInfoLogger [main] Started MinRecBotJavaApplication in 6.735 seconds (JVM running for 7.539)
+2023-05-14 15:44:40,666 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.0.10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 15:44:40,667 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.0.10] Initializing Servlet 'dispatcherServlet'
+2023-05-14 15:44:40,668 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.0.10] Completed initialization in 1 ms
+2023-05-14 15:44:44,068 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread [MinimalRecords Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-05-14 15:44:48,192 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread [MinimalRecords Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-05-14 15:44:52,067 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread [MinimalRecords Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-05-14 15:44:56,183 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread [MinimalRecords Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-05-14 15:45:00,810 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread [MinimalRecords Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-05-14 15:45:04,676 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:45:04,680 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:45:04,683 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-14 15:46:16,777 INFO org.springframework.boot.StartupInfoLogger [main] Starting MinRecBotJavaApplication using Java 20 on WIN-Q0PBGRUB9JH with PID 8376 (F:\Users\Admin\Desktop\a12345\MinRecBotJava\target\classes started by Admin in F:\Users\Admin\Desktop\a12345\MinRecBotJava)
+2023-05-14 15:46:16,780 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:46:17,846 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:46:17,861 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-05-14 15:46:18,399 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:46:18,408 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:46:18,409 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-14 15:46:18,410 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-14 15:46:18,555 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-14 15:46:18,556 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1731 ms
+2023-05-14 15:46:18,876 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:46:18,926 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-14 15:46:19,110 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-14 15:46:19,207 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-14 15:46:19,710 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-14 15:46:19,727 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2023-05-14 15:46:20,115 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:46:20,137 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:46:20,497 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:46:22,136 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 474c96a5-99b6-4bb9-ab16-3a0a1f91b4f9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-14 15:46:22,286 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-14 15:46:22,300 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62871522, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fb9a83c, org.springframework.security.web.context.SecurityContextPersistenceFilter@483ed60e, org.springframework.security.web.header.HeaderWriterFilter@6f695077, org.springframework.web.filter.CorsFilter@517d9cd5, org.springframework.security.web.csrf.CsrfFilter@7dbd70fd, org.springframework.security.web.authentication.logout.LogoutFilter@c14bbab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fdf029a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d1f3639, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5216532a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1231f25c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a14ab66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54780c40, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@862624f, org.springframework.security.web.session.SessionManagementFilter@282240, org.springframework.security.web.access.ExceptionTranslationFilter@48126a17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@412440c1]
+2023-05-14 15:46:23,678 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:46:23,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 15:46:23,716 INFO org.springframework.boot.StartupInfoLogger [main] Started MinRecBotJavaApplication in 7.386 seconds (JVM running for 8.264)
+2023-05-14 15:46:24,247 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-192.168.0.10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 15:46:24,248 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(5)-192.168.0.10] Initializing Servlet 'dispatcherServlet'
+2023-05-14 15:46:24,251 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(5)-192.168.0.10] Completed initialization in 3 ms
+2023-05-14 15:47:25,320 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:47:25,323 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-14 15:47:25,326 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
